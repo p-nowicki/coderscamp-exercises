@@ -2,3 +2,67 @@
     font-family: 'Lato', sans-serif;
 }
 
+.header {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    position: absolute; 
+}
+
+.inside_header {
+    width: 100%;
+    position: relative;
+}
+
+.photo_header {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px;
+}
+
+#photo {
+    margin: 0 auto;
+    position: relative;
+    right: 25%;
+    height: 100%;
+    width: auto;
+}
+
+.text_in_header {
+    text-align: center;
+    color:black;
+}
+
+.text_in_header p {
+    font-size: 20px;
+}
+
+.content {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 408px;
+}
+
+.about_me, .portfolio, .contact {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.about_me_photo, .portfolio_photo, .contact_photo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#about, #prtfl, #cntct {
+    position: relative;
+    height: 200px;
+    width: auto;
+    right: 10px;
+}
+
